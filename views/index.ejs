@@ -5,14 +5,90 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><%= title %></title>
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/reset.css">
 </head>
 <body>
-    <header>
-        <h1>Bienvenue sur mon blog de recettes</h1>
-    </header>
-    <main>
-        <p>Voici quelques recettes délicieuses à découvrir !</p>
-    </main>
-    <script src="/js/script.js"></script>
+    <div class="grille-accueil">
+
+         <!--NAVBAR-->
+        <div class="menu">
+            <h2 class="titre-menu">Menu</h2>
+            <ul class="liste-menu">
+                <li class="item-nav"><a href="/">Accueil</a></li>
+                <li class="item-nav"><a href="/informations.html">Informations</a></li>
+                <li class="item-nav"><a href="./portfolio.html">Recettes</a></li>
+                <li class="item-nav"><a href="/contact">Contact</a></li>
+                <li class="item-nav"><img src="images/instagram.svg" alt=""></li>
+            </ul>
+        </div>
+
+        <!--BLOG BOUTTON-->
+        <div class="presentation">
+            <img src="images/toque.png" alt="temple grec">
+            <h1>Ken Gassy</h1>
+            <p>"Lyon est une ville qui donne faim"</p>
+            <p>PAUL BOCUSE</p>
+            <a href="./informations.html">En savoir plus</a>
+        </div>
+
+        <!--SLIDER-->
+        <div class="slider">
+            <div class="container-slides">
+                <img src="images/pic2.jpeg" class="active">
+                <img src="images/pic1.jpeg">
+                <img src="images/pic4.jpeg">
+            </div>
+            <div class="cont-btn">
+                <div class="btn-nav left">
+                    <img src="images/chevron-gauche.svg" alt="chevron gauche">
+                </div>
+                <div class="btn-nav right">
+                    <img src="images/chevron-droit.svg" alt="chevron droit">
+                </div>
+            </div>
+        </div>
+
+        <!--  RECETTES  -->
+        <div class="choix">
+            <h2 class="titre-choix">
+                Bouquin du Gonard 📖
+            </h2>
+            <p>Goutez à l'exception.</p>
+            <a href="./portfolio.html" class="go-galerie">Découvrez nos recettes.</a>
+
+            <div class="cont-medias">
+                <div class="media">
+                    <a href="https://www.instagram.com/ken_le_toke/?hl=fr">
+                        <img src="images/instagram.svg">
+                    </a>
+                </div>
+                <div class="media">
+                    <a href="#">
+                        <img src="images/twitter.svg">
+                    </a>
+                </div>
+                <div class="media">
+                    <a href="https://www.facebook.com/keni.fifou">
+                        <img src="images/facebook.svg">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!--COLEUS BACKGROUND-->
+        <div class="contact">
+            <h3>Jardin<br>Des<br>Coléus!</h3>
+            <a href="./contact.html" class="go-contact">
+                <img src="images/chevron-droit.svg" alt="chevron droit">
+            </a>
+        </div>
+
+
+        <!--Derniere Grid ===> FOOTER   n-->
+        <div class="coleus-background">
+            <img src="images/foodtruck.jpg" alt="image d'un coléus" class="bg-coleus">
+        </div>
+
+    </div>
 </body>
 </html>
