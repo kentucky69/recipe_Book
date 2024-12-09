@@ -1,6 +1,6 @@
 const textes = [
     ' "Le Développement peut prendre plusieurs formes"',
-    'que ca soit Physiquement ou Intérieurement 👨🏻‍💻 "'
+    'que ca soit Physiquement ou Intérieurement  "'
     ];
 let indexTexte = 0;
 let indexChar = 0;
@@ -21,3 +21,7 @@ function ecrireTexte() {
 }
 
 const interval = setInterval(ecrireTexte, 70); // 100 ms entre chaque caractère
+
+
+
+
