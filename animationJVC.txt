@@ -1,0 +1,19 @@
+                         ===== ANIMATION MACHINE A ECRIRE =====
+
+<div id="texte"></div>
+
+ <script>
+        const texte = "Bonjour, ceci est un effet de machine à écrire !";
+        let index = 0;
+
+        function ecrireTexte() {
+            if (index < texte.length) {
+                document.getElementById("texte").innerHTML += texte.charAt(index);
+                index++;
+            } else {
+                clearInterval(interval);
+            }
+        }
+
+        const interval = setInterval(ecrireTexte, 100); // 100 ms entre chaque caractère
+    </script>

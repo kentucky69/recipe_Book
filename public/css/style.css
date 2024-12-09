@@ -1,3 +1,6 @@
+
+
+
 :root {
     --main-font-family: Playfair Display, 'Times New Roman', Times, serif;
 }
@@ -98,8 +101,6 @@ body {
 .liste-menu a:hover::after {
     transform: scale(1);
 }
-
-
 
 /* --------------- PRESENTATION --------------- */
 
@@ -311,7 +312,6 @@ img.active {
     background-image: url(/public/images/acceuil/coleusbg.jpg);
     object-fit: cover;
 }
-
 
 
 /* --------------- RESPONSIVE --------------- */
